@@ -85,3 +85,9 @@ Writing AWS networking and IAM as code, reading `terraform plan` output, and man
 ## Next steps
 
 CI/CD with GitHub Actions and Docker, then Kubernetes with Prometheus and Grafana.
+
+## Cleanup
+
+`terraform destroy` removed all 15 resources after testing, so no ongoing cost.
+
+![destroy](screenshots/12-terraform-destroy.png)
